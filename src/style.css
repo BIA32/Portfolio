@@ -43,6 +43,10 @@ h1 {
     margin: 0;
 }
 
+h2 {
+    font-size: 70px;
+}
+
 p {
     margin: 0;
     font-size: 30px;
@@ -93,4 +97,10 @@ p {
 
 .social {
     margin: 20px;
+}
+
+.sub-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
 }
