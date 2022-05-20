@@ -14,8 +14,10 @@ section {
 }
 
 footer {
-    height: 500px;
     background-color: black;
+    color: white;
+    text-align: center;
+    padding: 80px;
 }
 
 nav {
@@ -48,6 +50,11 @@ h2 {
 p {
     margin: 0;
     font-size: 30px;
+    font-weight: 300;
+}
+
+.subtext {
+    font-size: 15px;
     font-weight: 300;
 }
 
@@ -121,12 +128,46 @@ p {
 }
 
 .project-card {
-    width: 200px;
+    width: 300px;
     height: 500px;
     box-shadow: 5px 5px 20px rgb(184, 184, 184);
+    margin: 10px;
 }
 
 .project-container {
     display: flex;
     justify-content: space-around;
+}
+
+@media only screen and (max-width: 1000px) {
+    .project-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+.project-image {
+   margin-top: 25px;
+   width: 250px;
+   border-radius: 125px;
+}
+
+hr {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.project-link {
+    text-decoration: none;
+    color: #ef744b;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.hamburger {
+    border: 0;
+    background-color: transparent;
 }

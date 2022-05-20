@@ -15,16 +15,19 @@
             <nav>
                 <img class="logo" src="src/images/logo.png" alt="khorasan beeragh"/>
                 <ul>
-                    <li>About Me</li>
-                    <li>Projects</li>
-                    <li>Contact Me</li>
+                    <li><a href="#about-me">About Me</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact-me">Contact Me</a></li>
                 </ul>
+                <button class="hamburger" id="hamburger">
+                    <i class="fas fa-bars"></i>
+                </button>
             </nav>
             <div class="hero-area">
                 <div class="hero-text">
                     <h1>بنيامين عمران عزيز</h1>
                     <p>Front-End Developer</p>
-                    <div class="button">About Me</div>
+                    <div class="button"><a href="#about-me">About Me</a></div>
                 </div>
                 <div  class="socials">
                     <div><a href="https://www.twitter.com" class="social">
@@ -39,7 +42,7 @@
                 </div>
             </div>
         </section>
-        <section class="sub-section">
+        <section class="sub-section" id="about-me">
             <div class="information">
                 <h2>About Me</h2>
                 <p>Hello. My name is Benjamin Imran Aziz. I am a Front End Developer that is has very little experience.</p>
@@ -48,7 +51,7 @@
                 <img class="headshot" src="src/images/headshot.jpg" alt="Imran's headshot"/>
             </div>
         </section>
-        <section class="sub-section-alternative">
+        <section class="sub-section-alternative" id="projects">
             <h2>Projects</h2>
             <div class="project-container">
                 <div class="project-card">
@@ -56,14 +59,35 @@
                     <h3>Project One</h3>
                     <p class="subtext"> this is my project and some text about it. I enjoyed making this project.</p>
                     <hr/>
-                    <p class="subtext"> View Here</p>
+                    <p class="subtext"> <a class="project-link" href="https://www.github.com/BIA32">View Here</a></p>
                 </div>
-                <div class="project-card"></div>
-                <div class="project-card"></div>
-                <div class="project-card"></div>
+                <div class="project-card">
+                    <img class="project-image" src="" alt="Project One Image"/>
+                    <h3>Project Two</h3>
+                    <p class="subtext"> this is my project and some text about it. I enjoyed making this project.</p>
+                    <hr/>
+                    <p class="subtext"> <a class="project-link" href="https://www.github.com/BIA32">View Here</a></p>
+                </div>
+                <div class="project-card">
+                    <img class="project-image" src="" alt="Project One Image"/>
+                    <h3>Project Three</h3>
+                    <p class="subtext"> this is my project and some text about it. I enjoyed making this project.</p>
+                    <hr/>
+                    <p class="subtext"> <a class="project-link" href="https://www.github.com/BIA32">View Here</a></p>
+                </div>
+                <div class="project-card">
+                    <img class="project-image" src="" alt="Project One Image"/>
+                    <h3>Project Four</h3>
+                    <p class="subtext"> this is my project and some text about it. I enjoyed making this project.</p>
+                    <hr/>
+                    <p class="subtext"> <a class="project-link" href="https://www.github.com/BIA32">View Here</a></p>
+                </div>
             </div>
         </section>
-        <footer></footer>
+        <footer id="contact-me">
+            <h2>Contact Me</h2>
+            <p>ghole22mama@gmail.com</p>
+        </footer>
 
 
         <script src="src/app.js"></script>
